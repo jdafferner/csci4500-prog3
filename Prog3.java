@@ -1,5 +1,5 @@
 package prog3;  // remove before final submission to loki, causes problems with classpath if complied.
-/*Package prog3 will need to be removed in order to use all .java files on loki.
+/*The program requires Prog3.java, Utilities.java and Rnorm.java, other files are for testing and communication.
 Utilities contains the methods to read in input and return what is needed to main.
 Rnorm is a copy of the professor's rnorm java file, I'm not sure what this is used for yet but it's important and it works.
 import java.io.FileNotFoundException;*/
