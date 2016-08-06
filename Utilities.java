@@ -12,9 +12,9 @@ import java.io.InputStreamReader;
 public class Utilities {
 
 
-	private static final int NF = 30;
-	private static final int NP = 300;
-	private static final int NR = 5000;
+	private static final int NF = 30; 	// these three ints are required by the assignment
+	private static final int NP = 300;	// still not sure where they need to be used but I'm guessing mostly
+	private static final int NR = 5000;    // in getLine, or a function down the chain that sets up the pages
 	String line = null;
 	
 public boolean getLine() throws FileNotFoundException{
