@@ -24,7 +24,7 @@ public class Prog3 { //need to change to prog3 and save before submission.
 		prePage = grabRand.rnorm();
 		page = (int)(Math.abs(prePage) * 100);
 		
-		//System.out.printf("prePage value = %f, page value = %d\n", prePage, page);  // Just a print check
+		//System.out.printf("prePage value = %f, page value = %d\n", prePage, page);  // Just a print check of rnorm
 
 	}
 
