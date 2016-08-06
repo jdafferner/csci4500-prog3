@@ -1,5 +1,5 @@
 //Some code that I have stored that worked at some specific point.
-
+// This is just a scratch file, to store stuff temporarily.
 //Working File > Line > character reader			
 				
 	public int getLine() throws FileNotFoundException{
