@@ -1,3 +1,5 @@
+//Some code that I have stored that worked at some specific point.
+
 //Working File > Line > character reader			
 				
 	public int getLine() throws FileNotFoundException{
@@ -33,11 +35,9 @@
 		return r;
 	}
 }
-
-	public int getNumber(){   // may work not sure
-		
-
-
+ // may work not sure,  reads in characters, removes whitespace places in an array 
+ // casts character to int and returns, returns 0 when terminates.
+	public int getNumber(){   // may work not sure,  reads in characters, removes whitespace places in an array 
 		int l = line.length();
 			for(int i = 0; i < l; i++){
 				if(line.charAt(i) != ' ' || line.charAt(i) != '\n'){
