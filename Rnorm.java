@@ -1,5 +1,7 @@
-package prog3;
-
+package prog3;  //remove before making loki submission
+// Instructors rnorm file.  
+// Returns based on the seed so the same input to seed results
+// in the same final output
 public class Rnorm {
 	private static final int XRAND_MAX = 65535;
 	private final int NCASES = 6;
