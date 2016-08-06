@@ -14,15 +14,17 @@ public class Prog3 { //need to change to prog3 and save before submission.
 		int r = 0;
 		int t = 0;
 		double prePage;
-
-		//Rnorm grabRand = new Rnorm();
+		
+		Rnorm grabRand = new Rnorm();    	//refferals
 		Utilities u = new Utilities();
-		/*This code is a going to use u.*/
+		
+		/*Need code here for reading input inot main.
+		The exact flow of the data is not known to me at this time.*/
 		grabRand.xsrand(r);
 		prePage = grabRand.rnorm();
 		page = (int)(Math.abs(prePage) * 100);
 		
-		//System.out.printf("prePage value = %f, page value = %d\n", prePage, page);
+		//System.out.printf("prePage value = %f, page value = %d\n", prePage, page);  // Just a print check
 
 	}
 
