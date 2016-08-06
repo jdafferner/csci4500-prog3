@@ -2,7 +2,8 @@ package prog3;  // remove before final submission to loki, causes problems with 
 /*The program requires Prog3.java, Utilities.java and Rnorm.java, other files are for testing and communication.
 Utilities contains the methods to read in input and return what is needed to main.
 Rnorm is a copy of the professor's rnorm java file, I'm not sure what this is used for yet but it's important and it works.
-import java.io.FileNotFoundException;*/
+*/
+import java.io.FileNotFoundException;
 //prog 3 csci4500 James Dafferner and Mark Bradshaw
 public class Prog3 { //need to change to prog3 and save before submission.
 
